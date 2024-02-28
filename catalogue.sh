@@ -97,3 +97,5 @@ VALIDATE $? "Installing mongo client"
 mongo --host mango.uniman.in </app/schema/catalogue.js &>>$LOGFILE
 
 VALIDATE $? "loading catalogue data into mongodb"
+
+echo "done for today go home"
