@@ -1,3 +1,5 @@
+#!/bin/bash
+
 DATE=$(date +%F)
 LOGSDIR=/home/centos/logsdir                    
 #---------------->> change log file location 
