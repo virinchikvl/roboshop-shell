@@ -1,7 +1,7 @@
 #!/bin/bash
 
 DATE=$(date +%F)
-LOGSDIR=/home/centos/logsdir                    
+LOGSDIR=/home/centos/roboshop-shell/logsdir                   
 #---------------->> change log file location 
 # /home/centos/logsdir/script-name-date.log
 SCRIPT_NAME=$0
