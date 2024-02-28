@@ -43,7 +43,6 @@ getent passwd roboshop
 if [ $? -ne 0 ]
 then 
     echo "user already existed"
-exit 1
 else 
     echo "user is getting created"
 fi 
