@@ -40,14 +40,9 @@ VALIDATE $? "Installing NodeJS"
 # IMPROVEMENT: first check the user already exist or not, if not exist then create
 getent passwd roboshop
 
-if [ $? -ne 0 ]
-then 
-    echo "user already existed"
-else 
-    echo "user is getting created"
-fi 
-
 useradd roboshop &>>$LOGFILE
+
+VALIDATE $? "creating user"
 
 #write a condition to check directory already exist or not
 mkdir /app &>>$LOGFILE
