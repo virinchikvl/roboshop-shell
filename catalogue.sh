@@ -93,3 +93,4 @@ mongo --host 10.49.3.237 </app/schema/catalogue.js &>>$LOGFILE
 VALIDATE $? "loading catalogue data into mongodb"
 
 echo "done for today go home"
+
